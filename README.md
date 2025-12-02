@@ -1,6 +1,11 @@
-# 🩺 Explainable AI – Chest X-Ray Pneumonia
+# 🩺 XAI Chest X-Ray with Grad-CAM
 
-Questo progetto mostra come applicare **XAI (Explainable AI)** su radiografie toraciche usando una CNN addestrata e la tecnica **Grad-CAM**.
+Repository per lo sviluppo di Explainable AI (XAI) applicata alle radiografie toraciche.
+Include notebook per il training del modello e per la spiegabilità con Grad-CAM,
+modello salvato (.h5), immagini di test e un template di report clinico in Markdown
+per radiologi e pazienti.
+
+---
 
 ## 📊 Risultato del modello
 - **Diagnosi AI:** Pneumonia
@@ -15,9 +20,6 @@ Il radiologo può verificare se l’AI si è concentrata su regioni patologiche 
 L’analisi dell’AI suggerisce la presenza di polmonite.  
 La mappa colorata mostra le zone dei polmoni che hanno portato a questa conclusione.  
 Questa analisi **non sostituisce la valutazione medica**, ma supporta il medico nella diagnosi.
-
-## 📷 Heatmap Grad‑CAM
-*(Inserire qui l’immagine generata con la sovrapposizione della heatmap sulla radiografia)*
 
 ---
 
