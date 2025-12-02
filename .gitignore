@@ -1,0 +1,30 @@
+# Ignora dataset scaricati da Kaggle
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Ignora cartelle di dataset estratti
+chest_xray/
+data/
+datasets/
+
+# Ignora modelli pesanti e checkpoint
+*.h5
+*.hdf5
+*.ckpt
+checkpoint/
+
+# Ignora file temporanei di Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb.json
+
+# Ignora file di log e output
+*.log
+logs/
+output/
+__pycache__/
+
+# Ignora file di sistema
+.DS_Store
+Thumbs.db
